@@ -1,9 +1,9 @@
 # Site settings
 title: Журнал науки и техники
-email: factummejournal@denisx.ru
+email: journal@factum.me
 description: "Журнал науки и техники"
-baseurl: "/journal.github.io"
-url: "http://factum-me.github.io"
+baseurl: "/journal"
+url: "http://factum.me"
 twitter_username: jekyllrb_
 github_username:  jekyll_
 
