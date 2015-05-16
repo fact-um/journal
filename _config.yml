@@ -3,7 +3,7 @@ title: Журнал науки и техники
 email: factummejournal@denisx.ru
 description: "Журнал науки и техники"
 baseurl: "/journal.github.io/"
-url: "https://factum.me"
+url: "http://factum-me.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
