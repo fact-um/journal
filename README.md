@@ -1,2 +1,2 @@
 # journal
-Source of "Journal of Science and Technology"
+Journal of Science and Technology
