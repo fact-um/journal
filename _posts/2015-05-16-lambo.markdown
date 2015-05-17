@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Скачать Ламборгини обои в ХД для настольных и мобильных ПК здесь"
-image: "/photo/2015-05-16-lambo/middle/Lamborghini-wallpaper-14.jpg"
+image: "/photo/2015-05-16-lambo/small/Lamborghini-wallpaper-14.jpg"
 ---
 
 [![Ламборгини оранжевый и металлик]({{ site.baseurl }}/photo/2015-05-16-lambo/middle/Lamborghini-wallpaper-14.jpg ) ]({{ site.baseurl }}/photo/2015-05-16-lambo/big/Lamborghini-wallpaper-14.jpg )
