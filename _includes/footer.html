@@ -1,20 +1,25 @@
+<div class="social">
+	<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,gplus,lj" data-yashareTheme="counter"></div>
+</div>
+
 <footer class="site-footer">
 
-  <div class="wrap">
+	<div class="wrap">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+		<h2 class="footer-heading">{{ site.title }}</h2>
 
-    <div class="footer-col-1 column">
-      <ul>
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
+		<div class="footer-col-1 column">
+			<ul>
+				<li>{{ site.title }}</li>
+				<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+			</ul>
+		</div>
 
-    <div class="footer-col-2 column">
-      <ul>
-        {% if site.github_username %}<li>
-          <a href="https://github.com/{{ site.github_username }}">
+		<div class="footer-col-2 column">
+			<ul>
+				{% if site.github_username %}
+				<li>
+					<a href="https://github.com/{{ site.github_username }}">
             <span class="icon github">
               <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -29,11 +34,13 @@
                 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
               </svg>
             </span>
-            <span class="username">{{ site.github_username }}</span>
-          </a>
-        </li>{% endif %}
-        {% if site.twitter_username %}<li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
+						<span class="username">{{ site.github_username }}</span>
+					</a>
+				</li>
+				{% endif %}
+				{% if site.twitter_username %}
+				<li>
+					<a href="https://twitter.com/{{ site.twitter_username }}">
             <span class="icon twitter">
               <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
@@ -46,16 +53,72 @@
                 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
               </svg>
             </span>
-            <span class="username">{{ site.twitter_username }}</span>
-          </a>
-        </li>{% endif %}
-      </ul>
-    </div>
+						<span class="username">{{ site.twitter_username }}</span>
+					</a>
+				</li>
+				{% endif %}
 
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
-    </div>
+				{% if site.facebook_username %}
+				<li>
+					<a href="https://facebook.com/{{ site.facebook_username }}">
+            <span class="icon facebook">
+              fb&nbsp;
+            </span>
+						<span class="username">{{ site.facebook_username }}</span>
+					</a>
+				</li>
+				{% endif %}
 
-  </div>
+				{% if site.vk_username %}
+				<li>
+					<a href="https://vk.com/{{ site.vk_username }}">
+            <span class="icon vk">
+				vk&nbsp;
+            </span>
+						<span class="username">{{ site.vk_username }}</span>
+					</a>
+				</li>
+				{% endif %}
+
+			</ul>
+		</div>
+
+		<div class="footer-col-3 column">
+			<p class="text">{{ site.description }}</p>
+		</div>
+
+	</div>
 
 </footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	var yaParams = {/*Здесь параметры визита*/};
+</script>
+
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter17696623 = new Ya.Metrika({id:17696623,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					trackHash:true,params:window.yaParams||{ }});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->

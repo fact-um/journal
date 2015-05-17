@@ -5,7 +5,9 @@ description: "Журнал науки и техники"
 baseurl: "/journal"
 url: "http://factum.me"
 twitter_username: FactumMeJournal
-github_username: https://github.com/factum-me/journal
+facebook_username: FactumMeJournal
+vk_username: factummejournal
+github_username: factum-me/journal
 
 # Build settings
 markdown: kramdown
