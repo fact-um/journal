@@ -4,8 +4,8 @@ email: journal@factum.me
 description: "Журнал науки и техники"
 baseurl: "/journal"
 url: "http://factum.me"
-twitter_username: jekyllrb_
-github_username:  jekyll_
+twitter_username: FactumMeJournal
+github_username: https://github.com/factum-me/journal
 
 # Build settings
 markdown: kramdown
