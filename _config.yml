@@ -2,8 +2,8 @@
 title: Журнал науки и техники
 email: journal@factum.me
 description: "Журнал науки и техники"
-baseurl: "/journal.github.io"
-url: "http://factum.me"
+baseurl: "/"
+url: "/"
 twitter_username: jekyllrb_
 github_username:  jekyll_
 
