@@ -8,6 +8,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+	<!--  | prepend: site.baseurl | prepend: site.url -->
 	{% if page.image %}
 	<meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}" />
 	{% endif %}
