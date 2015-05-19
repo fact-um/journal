@@ -14,3 +14,4 @@ image: "/photo/2015-05-19-food_cubes/small/1.jpg"
 [![Продукты, еда нарезанная кубиками, с подписями]({{ site.baseurl }}/photo/2015-05-19-food_cubes/middle/2.jpg) ]({{ site.baseurl }}/photo/2015-05-19-food_cubes/raw/2.jpg ){:target="_blank"}
 
 [Источник](http://lernertandsander.com/cubes/){:target="_blank"} (en)
+

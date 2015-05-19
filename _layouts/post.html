@@ -12,4 +12,42 @@ layout: default
   {{ content }}
   </article>
 
+	<hr class="hr post"/>
+
+	<ul class="posts pagination">
+
+		<li class="previous">
+		{% if page.previous %}
+				<span class="post-date">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
+				<a class="post-link" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">
+					<span class="column column-img">
+						<span class="pseudo-href">
+							<img width="100" class="img" src="{{ page.previous.image | prepend: site.baseurl }}" alt="" />
+						</span>
+					</span>
+					<span class="column column-text">
+						<span class="pseudo-href">{{ page.previous.title }}</span>
+					</span>
+				</a>
+		{% endif %}
+		</li>
+
+		<li class="next">
+		{% if page.next %}
+			<span class="post-date">{{ page.next.date | date: "%b %-d, %Y" }}</span>
+			<a class="post-link" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">
+					<span class="column column-img">
+						<span class="pseudo-href">
+							<img width="100" class="img" src="{{ page.next.image | prepend: site.baseurl }}" alt="" />
+						</span>
+					</span>
+					<span class="column column-text">
+						<span class="pseudo-href">{{ page.next.title }}</span>
+					</span>
+			</a>
+		{% endif %}
+		</li>
+
+	</ul>
+
 </div>
