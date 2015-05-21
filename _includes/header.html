@@ -1,8 +1,25 @@
 <header class="site-header">
 
-  <div class="wrap">
+  <div class="wrap posts logo">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	{% if page.url != '/' %}
+		<a class="post-link" href="{{ site.baseurl }}/">
+	{% endif %}
+			<span class="column column-img">
+				<span class="pseudo-href-img">
+					<img width="220" class="img" src="{{ '/f/logo-middle.png' | prepend: site.baseurl }}" alt="" />
+				</span>
+			</span>
+			<span class="column column-text">
+				<span class="pseudo-href">{{ site.title }}</span>
+			</span>
+	{% if page.url != '/' %}
+		</a>
+	{% endif %}
+
+
+
+  <!--a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a-->
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">

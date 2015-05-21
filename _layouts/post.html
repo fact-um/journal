@@ -19,9 +19,9 @@ layout: default
 		<li class="previous">
 		{% if page.previous %}
 				<span class="post-date">{{ page.previous.date | date: "%b %-d, %Y" }}</span>
-				<a class="post-link" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">
+				<a class="post-link" href="{{ page.previous.url | prepend: site.baseurl }}">
 					<span class="column column-img">
-						<span class="pseudo-href">
+						<span class="pseudo-href-img">
 							<img width="100" class="img" src="{{ page.previous.image | prepend: site.baseurl }}" alt="" />
 						</span>
 					</span>
@@ -35,9 +35,9 @@ layout: default
 		<li class="next">
 		{% if page.next %}
 			<span class="post-date">{{ page.next.date | date: "%b %-d, %Y" }}</span>
-			<a class="post-link" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">
+			<a class="post-link" href="{{ page.next.url | prepend: site.baseurl }}">
 					<span class="column column-img">
-						<span class="pseudo-href">
+						<span class="pseudo-href-img">
 							<img width="100" class="img" src="{{ page.next.image | prepend: site.baseurl }}" alt="" />
 						</span>
 					</span>

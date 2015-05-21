@@ -1,5 +1,6 @@
 ---
 layout: default
+image: "/f/logo-middle.png"
 ---
 
 <div class="home">
@@ -12,8 +13,8 @@ layout: default
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 			<span class="column column-img">
-				<span class="pseudo-href">
-					<img width="200" class="img" src="{{ post.image | prepend: site.baseurl }}" alt="" />
+				<span class="pseudo-href-img">
+					<img width="200" class="img" src="{{ post.image | prepend: site.baseurl }}" alt="Журнал науки и техники" />
 				</span>
 			</span>
 			<span class="column column-text">
