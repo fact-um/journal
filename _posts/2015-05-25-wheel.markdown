@@ -47,7 +47,7 @@ image: "/photo/2015-05-25-wheel/small/1.jpg"
 
 Взгляните на это невероятное колесо в рекламном ролике команды Хайкор:
 
-[Источник](http://www.youtube.com/watch?v=C-ioPLs0Dws){:target="_blank"}
+[Источник](http://www.youtube.com/v/C-ioPLs0Dws){:target="_blank"}
 
 [Источник](http://wonderfulengineering.com/this-wheel-can-convert-manually-powered-bikes-into-electric-bikes/){:target="_blank"} (en)
 
