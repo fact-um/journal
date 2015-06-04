@@ -81,6 +81,28 @@
 				</li>
 				{% endif %}
 
+				{% if site.mymailru_username %}
+				<li>
+					<a href="http://my.mail.ru/community/{{ site.mymailru_username }}">
+            <span class="icon mymailru">
+				my.mail.ru&nbsp;
+            </span>
+						<span class="username">{{ site.mymailru_username }}</span>
+					</a>
+				</li>
+				{% endif %}
+
+				{% if site.ok_username %}
+				<li>
+					<a href="http://ok.ru/group/{{ site.ok_username }}">
+            <span class="icon ok">
+				ok&nbsp;
+            </span>
+						<span class="username">{{ site.ok_username }}</span>
+					</a>
+				</li>
+				{% endif %}
+
 			</ul>
 		</div>
 
